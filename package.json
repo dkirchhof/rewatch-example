@@ -1,0 +1,22 @@
+{
+  "name": "testrepo",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/main",
+      "packages/dep01"
+    ]
+  },
+  "scripts": {
+    "build": "rewatch build .",
+    "build:rescript": "rescript build -with-deps",
+    "watch": "rewatch watch .",
+    "watch:rescript": "rescript watch -with-deps",
+    "clean": "rewatch clean .",
+    "clean:rescript": "rescript clean"
+  },
+  "dependencies": {
+    "@rolandpeelen/rewatch": "^1.0.9",
+    "rescript-voby": "github:dkirchhof/rescript-voby"
+  }
+}

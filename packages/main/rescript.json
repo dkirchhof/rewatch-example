@@ -1,0 +1,19 @@
+{
+  "name": "@testrepo/main",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".mjs",
+  "bs-dependencies": [
+    "@testrepo/dep01",
+    "rescript-voby"
+  ],
+  "jsx": {
+    "module": "Voby.JSX"
+  },
+}

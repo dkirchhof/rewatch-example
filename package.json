@@ -16,7 +16,8 @@
     "clean:rescript": "rescript clean"
   },
   "dependencies": {
-    "@rolandpeelen/rewatch": "^1.0.9",
+    "@rescript/core": "^1.6.1",
+    "@rolandpeelen/rewatch": "^1.0.10-39ea554.0",
     "rescript-voby": "github:dkirchhof/rescript-voby"
   }
 }
